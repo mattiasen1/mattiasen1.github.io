@@ -1,25 +1,39 @@
+
 body{
     background-image: url(https://hdwallsource.com/img/2014/2/river-wallpaper-16012-16500-hd-wallpapers.jpg);
+    background-size:cover;
+    background-attachment:fixed;
 }
 
+.contact{
+    width:800px;
+    margin: 0 auto 200px auto;
+    background:#ddd;
+    opacity:0.7;
+}
 .wrapper{
     width:800px;
-    margin: 50px auto 50px auto;
+    background:#eee;
+    margin: 300px auto 50px auto;
+    opacity:0.7;
 }
 
 .heading{
-    height:100px;
+    height:200px;
+    background:#ddd;
     padding:20px;
     text-align: center;
 }
 
 .navigation{
-    height:200px;
+    height:400px;
+    background:#ddd;
     
 }
 
 .content{
-    min-height: 400px;
+    min-height:800px;
+    background:#ddd;
     width:600px;
     float:left;
 }
@@ -27,12 +41,14 @@ body{
 .sidebar{
     width:200px;
     float:right;
-    min-height: 400px;
+    background:#ddd;
+    min-height:800px;
 }
 
 .footer{
     clear:both;
-    height:100px;
+    background:#ddd;
+    height:200px;
     color:white;
     text-align:center;
     padding:10px;
