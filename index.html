@@ -1,30 +1,99 @@
-<html>
-  <head>
-    <title>HorKyleJens</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-  </head>
-  
-  <body>
-    <div class="contact">
-      kontakt
-      </div>
-    <div class="wrapper">
-      <div class ="heading">
-        <h1>Nagon schyst logga</h1>
-      </div>
-      <div class="navigation">
-        navigation
-      </div>
-      <div class="content">
-        Main content
-      </div>
-      <div class="sidebar">
-        Additional info
-      </div>
-      <div class="footer">
-        Replokalens website
-      </div>
-  </body>
-  
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Burger Queen</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body onload="form1.reset();">
+      <main>
+        <h1>Välkommen till Burger Queen</h1>
+      </main>
+      <section>
+        <h3>Vilken burgare får det lov att vara?</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Mögelburgare</th>
+              <th>Mögel</th>
+              <th>En god burgare</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="https://cdn2.cdnme.se/cdn/6-1/1900232/images/2010/rutten-burgare_88381628.jpg" alt="burger" title="MUMS" width="400"> </td>
+              <td><img src="https://i.kinja-img.com/gawker-media/image/upload/t_original/irlgygghwlyaqfbkoeck.jpg" alt="burger" title="MUMS" width="300"> </td>
+              <td><img src="https://nouwcdn.com/13/1350000/1335000/1325777/pics/201706210955290642_sbig.jpg?width=765g" alt = "mumma" title = "hurra" width = "335">
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>
+                <ul>
+                  <li>Kött kanske</li>
+                  <li>Strips ingår</li>
+                  <li>Svamp</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Gott med mums</li>
+                  <li>mumma</li>
+                  <li>MÖÖÖÖGEL</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Exklusiv med grädde</li>
+                  <li>Lite jordgubbar</li>
+                  <li>Efterrätt?</li>
+                </ul>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <section>
+        <h3>USERINFO</h3>
+        <p>
+          <form id = "form1">
+            <label for="firstandlast">Full name</label><br>
+            <input id="firstandlast" name="firstandlast" required="required" placeholder="First- and Last name" type="text">
+        </p>
+        <p>
+          <label for="email">Email</label><br>
+          <input id="email" name="em" required="required" placeholder="E-mail address" type="email">
+        </p>
+        <p>
+          <label for="street">Street</label><br>
+          <input id="street" name="sn" required = "required" placeholder="Street name" type="text">
+        </p>
+        <p>
+          <label for="housenr">House</label><br>
+          <input id="housenr" name="hn" placeholder="House number" required = "required" type="text">
+        </p>
+        <p>
+          <label for="recipient">Payment Method</label><br>
+          <select id="recipient" name="rcp">
+            <option>Danskebank</option>
+            <option>Dogecoin</option>
+            <option>Finbank</option>
+            <option>Sydea</option>
+            <option>The Almighty Bank of Doom</option>
+          </select>
+        </p>
+        <label for="gender">What is your gender?</label><br>
+        <input id="gender" name="gender" placeholder="Gender" required = "required" type="radio">Male<br>
+        
+        <input id="gender" name="gender" placeholder="Gender" required = "required" type="radio">Female<br>
+        
+        <input id="gender" name="gender" placeholder="Gender" required = "required" type="radio">jasGRIPEN<br>
+        
+        <input id="gender" name="gender" placeholder="Gender" required = "required" type="radio">Potato<br><br>
+        <input value="Send" type="submit"><br><br>
+        </form>
+      </section>
+      <footer>
+        &copy Bultimer 
+      </footer>
+    </body>
 </html>
