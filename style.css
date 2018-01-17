@@ -1,11 +1,12 @@
-body {
+/*body {
     font-family: arial;
-}
+}*/
 .burgare {
+    font-family: arial;
     padding: 30px;
     margin: 120px;
-    background-color: blue;
-    opacity: 0.9;
+    background-color: lightblue;
+    opacity: 0.8;
     border-radius: 20px;
     box-shadow:  0px  0px 0px #888888;
     transition:0.3s;
@@ -44,4 +45,14 @@ body {
 .center {
     margin: 0 auto;
     text-align: center;
+}
+
+.info {
+    font-family: arial;
+    background-color: white;
+    opacity: 0.8;
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #333333;
 }
