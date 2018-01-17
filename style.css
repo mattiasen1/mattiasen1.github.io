@@ -1,55 +1,47 @@
-
-body{
-    background-image: url('http://idolza.com/a/f/g/giraffe-cartoon-wallpaper-2560x1440-nice-backgrounds_nice-christmas-trees_bathroom-ideas-front-door-fall-decorating-back-bar-design-your-room-online-free-corner-bathtub-home.jpg');
-    background-size:cover;
-    background-attachment:fixed;
+body {
+    font-family: arial;
 }
-
-.contact{
-    width:800px;
-    margin: 0 auto 200px auto;
-    background:#ddd;
-    opacity:0.7;
+.burgare {
+    padding: 30px;
+    margin: 120px;
+    background-color: blue;
+    opacity: 0.9;
+    border-radius: 20px;
+    box-shadow:  0px  0px 0px #888888;
+    transition:0.3s;
+    transform: scale(1,1);
 }
-.wrapper{
-    width:800px;
-    background:#eee;
-    margin: 300px auto 50px auto;
-    opacity:0.7;
+.burgare:hover {
+    box-shadow:  0px  0px 20px #EEE;
+    transform:scale(1.05,1.05);
 }
-
-.heading{
-    height:200px;
-    background:#ddd;
-    padding:20px;
+.queen {
     text-align: center;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    display: inline-block;
+}
+.queen2:hover {
+    box-shadow: 0px 0px 20px #EEE;
+    transform:scale(1.1 ,1.1);
 }
 
-.navigation{
-    height:400px;
-    background:#ddd;
-    
+.queen2 {
+    border-radius: 20px;
+    transition: 0.4s;
+    transform:scale(1,1);
 }
 
-.content{
-    min-height:800px;
-    background:#ddd;
-    width:600px;
-    float:left;
+.html {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.designtrends.com/wp-content/uploads/2016/03/28061733/Seine-River-Bridge-in-France-Background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.sidebar{
-    width:200px;
-    float:right;
-    background:#ddd;
-    min-height:800px;
-}
-
-.footer{
-    clear:both;
-    background:#ddd;
-    height:200px;
-    color:white;
-    text-align:center;
-    padding:10px;
+.center {
+    margin: 0 auto;
+    text-align: center;
 }
