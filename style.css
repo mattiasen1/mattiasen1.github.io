@@ -1,0 +1,56 @@
+.html {
+    background-image: url('https://www.nordicvisitor.com/images/sweden/uppsala-sweden-(2).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    font-family: arial;
+    text-align: center;
+}
+
+.rubrik {
+    margin: 5%;
+    border-radius: 400px;
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.8);
+}
+    
+#info {
+    margin: 10%;
+}
+.petter {
+    width: 50%;
+    float:left;
+    border-radius: 0px;
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.8);
+    /*text-align: center;*/
+}
+.balter {
+    width: 50%;
+    float:left;
+    border-radius: 0px;
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.8);
+    /*text-align: center;*/
+}
+
+.petterbild {
+    width: 30%;
+    padding: 5%;
+    border-radius: 50px;
+}
+
+.balterbild {
+    width: 30%;
+    padding: 5%;
+    border-radius: 50px;
+}
+
+.text {
+    margin: 15%;
+    float: right;
+    text-align: center;
+    font-size: 130%;
+}
