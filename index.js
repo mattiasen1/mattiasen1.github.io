@@ -8,7 +8,7 @@ var frth = undefined;
 
 function playmusic() {
     var audio = new Audio('untzuntz.mp3');
-    //audio.play();
+    audio.play();
     tonart("D");
 }
 
